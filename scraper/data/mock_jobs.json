@@ -1,0 +1,79 @@
+[
+  {
+    "external_id": "job-1001",
+    "title": "Backend Software Engineer",
+    "company": "TechNova Ltd",
+    "location": "Remote",
+    "description": "Design and build scalable backend services using modern technologies. Work with distributed systems and cloud infrastructure.",
+    "salary_min": 50000,
+    "salary_max": 70000,
+    "url": "https://example.com/jobs/1001",
+    "posted_at": "2026-05-01T10:00:00Z"
+  },
+  {
+    "external_id": "job-1002",
+    "title": "Senior Backend Engineer",
+    "company": "DataFlow Systems",
+    "location": "Berlin, Germany",
+    "description": "Lead backend development for high-throughput data processing systems. Experience with messaging systems and microservices required.",
+    "salary_min": 70000,
+    "salary_max": 90000,
+    "url": "https://example.com/jobs/1002",
+    "posted_at": "2026-05-02T09:30:00Z"
+  },
+  {
+    "external_id": "job-1003",
+    "title": "Python Developer",
+    "company": "CloudCore",
+    "location": "Athens, Greece",
+    "description": "Develop backend services in Python. Familiarity with FastAPI and PostgreSQL is a plus.",
+    "salary_min": 40000,
+    "salary_max": 60000,
+    "url": "https://example.com/jobs/1003",
+    "posted_at": "2026-05-03T14:15:00Z"
+  },
+  {
+    "external_id": "job-1004",
+    "title": "Go Backend Engineer",
+    "company": "ScaleOps",
+    "location": "Remote",
+    "description": "Build high-performance backend services in Go. Work on distributed systems and real-time data pipelines.",
+    "salary_min": 60000,
+    "salary_max": 85000,
+    "url": "https://example.com/jobs/1004",
+    "posted_at": "2026-05-03T16:45:00Z"
+  },
+  {
+    "external_id": "job-1005",
+    "title": "Junior Software Engineer",
+    "company": "Innovatech",
+    "location": "Patras, Greece",
+    "description": "Entry-level position working on backend systems. Opportunity to learn modern technologies and contribute to production services.",
+    "salary_min": 25000,
+    "salary_max": 35000,
+    "url": "https://example.com/jobs/1005",
+    "posted_at": "2026-05-04T08:00:00Z"
+  },
+  {
+    "external_id": "job-1006",
+    "title": "Full Stack Engineer",
+    "company": "WebWorks",
+    "location": "London, UK",
+    "description": "Work across backend and frontend systems. Strong backend experience required, frontend knowledge is a plus.",
+    "salary_min": 55000,
+    "salary_max": 75000,
+    "url": "https://example.com/jobs/1006",
+    "posted_at": "2026-05-04T11:20:00Z"
+  },
+  {
+    "external_id": "job-1007",
+    "title": "Platform Engineer",
+    "company": "InfraTech",
+    "location": "Remote",
+    "description": "Build and maintain platform infrastructure. Experience with cloud services and CI/CD pipelines required.",
+    "salary_min": 65000,
+    "salary_max": 90000,
+    "url": "https://example.com/jobs/1007",
+    "posted_at": "2026-05-04T13:50:00Z"
+  }
+]

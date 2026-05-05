@@ -10,19 +10,20 @@ The system is designed to simulate how job data is collected, processed asynchro
 
 ## High-Level Architecture
 
+```
+## Architecture
 
 +-------------+       +----------+       +-------------+       +------------+
 | Scraper     | ----> | RabbitMQ | ----> | Worker      | ----> | PostgreSQL |
 | (Python)    |       |          |       | (Go)        |       |            |
 +-------------+       +----------+       +-------------+       +------------+
-                                                              |
-                                                              v
-                                                        +-------------+
-                                                        | FastAPI API |
-                                                        | (Python)    |
-                                                        +-------------+
-
-
+                                                                     |
+                                                                     v
+                                                               +-------------+
+                                                               | FastAPI API |
+                                                               | (Python)    |
+                                                               +-------------+
+```
 ---
 
 ## Components
