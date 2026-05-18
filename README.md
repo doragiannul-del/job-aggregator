@@ -26,7 +26,7 @@ The system will consist of:
 
 - Scraper (Python)
 - Queue (RabbitMQ)
-- Worker (Go)
+- Worker (Python)
 - Database (PostgreSQL)
 - API (FastAPI)
 

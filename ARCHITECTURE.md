@@ -15,7 +15,7 @@ The system is designed to simulate how job data is collected, processed asynchro
 
 +-------------+       +----------+       +-------------+       +------------+
 | Scraper     | ----> | RabbitMQ | ----> | Worker      | ----> | PostgreSQL |
-| (Python)    |       |          |       | (Go)        |       |            |
+| (Python)    |       |          |       | (Python)    |       |            |
 +-------------+       +----------+       +-------------+       +------------+
                                                                      |
                                                                      v
@@ -34,7 +34,7 @@ Generates job data (currently from mock JSON) and publishes messages to RabbitMQ
 ### Queue (RabbitMQ)
 Acts as a buffer between producers and consumers, enabling asynchronous processing.
 
-### Worker (Go)
+### Worker (Python)
 Consumes job messages, validates and normalizes them, and stores them in PostgreSQL.
 
 ### Database (PostgreSQL)

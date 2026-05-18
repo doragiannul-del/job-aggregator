@@ -44,6 +44,7 @@ with open("data/mock_jobs.json", "r") as file:
     jobs = json.load(file)
     # print(json.dumps(jobs, indent=4))
 
+### TODO XXX - MOVE VALIDATION TO WORKER ?
 valid_jobs = 0
 invalid_jobs = 0
 for job in jobs:
