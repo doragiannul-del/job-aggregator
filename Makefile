@@ -1,4 +1,4 @@
-.PHONY: up down logs scraper worker db-connect db-check lint format
+.PHONY: up down logs scraper worker db-connect db-check lint format test
 
 up:
 	docker compose up -d
@@ -25,3 +25,7 @@ lint:
 format:
 	cd scraper && uv run ruff format .
 	cd worker && uv run ruff format .
+
+test:
+	cd scraper && uv run pytest
+	cd worker && uv run pytest

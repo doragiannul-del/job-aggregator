@@ -23,7 +23,7 @@ VALID_SCHEMA = {
         "description": {"type": "string", "minLength": 50},
         "salary_min": {"type": ["number", "null"], "minimum": 0},
         "salary_max": {"type": ["number", "null"], "minimum": 0},
-        "url": {"type": "string", "format": "uri"},
+        "url": {"type": "string", "pattern": "^https?://"},
         "posted_at": {"type": "string", "format": "date-time"},
     },
     "required": ["external_id", "title", "company", "location", "description", "url"],

@@ -76,6 +76,12 @@ make lint      # check for issues
 make format    # auto-fix formatting
 ```
 
+### Running Tests
+
+```bash
+make test
+```
+
 ---
 
 ## Makefile Commands
@@ -90,3 +96,4 @@ make format    # auto-fix formatting
 | `make db-connect` | Connect to PostgreSQL shell |
 | `make lint` | Check code quality with ruff on all services |
 | `make format` | Format code with ruff on all services |
+| `make test` | Run tests across all services |
